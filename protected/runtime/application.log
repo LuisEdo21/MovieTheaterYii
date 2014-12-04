@@ -1,0 +1,2127 @@
+2014/12/02 02:40:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexhtml".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('indexhtml')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('indexhtml')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/indexhtml')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/indexhtml
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/indexhtml
+---
+2014/12/02 05:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/momias_guanajuato.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:45:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/una_pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nuestras_salas".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nuestras_salas')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nuestras_salas')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nuestras_s...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nuestras_salas.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:46:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "promociones".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('promociones')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('promociones')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/promocione...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/promociones.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/momias_guanajuato.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/una_pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/una_pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/momias_guanajuato.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 05:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/momias_guanajuato.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/una_pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nuestras_salas".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nuestras_salas')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nuestras_salas')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nuestras_s...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nuestras_salas.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/una_pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/momias_guanajuato.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nuestras_salas".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nuestras_salas')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nuestras_salas')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nuestras_s...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nuestras_salas.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "servicios".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('servicios')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('servicios')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/servicios')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/servicios.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "servicios".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('servicios')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('servicios')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/servicios')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/servicios.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/una_pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/banner...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/banner_inicial/momias_guanajuato.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
+2014/12/02 06:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "nosotros".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('nosotros')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/nosotros')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/nosotros
+---
+2014/12/03 00:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "nosotros" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('nosotros')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/MovieTheaterYii/site/page.html?view=nosotros
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/
+---
+2014/12/03 00:03:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "nuestras_salas" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('nuestras_salas')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/MovieTheaterYii/site/page.html?view=nuestras_salas
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/
+---
+2014/12/03 00:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "nuestras_salas" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('nuestras_salas')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/MovieTheaterYii/site/page.html?view=nuestras_salas
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/
+---
+2014/12/03 00:03:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "servicios" was not found.' in C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('servicios')
+#1 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/MovieTheaterYii/site/page.html?view=servicios
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/
+---
+2014/12/03 00:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 00:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 00:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 00:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 04:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 04:57:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 05:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 05:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/hobbit.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:49:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//hobbit.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/hobbit.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/hobbit.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/hobbit.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/hobbit.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//pareja_tonta.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//pareja_tonta.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//matar_jefe.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//matar_jefe.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//paddington.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//paddington.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//sinsajo.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//sinsajo.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//interestelar.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//interestelar.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//momias_gto.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//momias_gto.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//furia.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//furia.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//grandes_heroes.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//grandes_heroes.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 05:52:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic//dictadura.jpg".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic//dictadura.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 06:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic1".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic1')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic1
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 06:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic2".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic2')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic2
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/index.html
+---
+2014/12/03 06:05:48 [error] [php] Array to string conversion (C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\_view.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\zii\widgets\CListView.php(291): PeliculasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\xampp\htdocs\yii\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\index.php(43): PeliculasController->widget()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): PeliculasController->renderInternal()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(869): PeliculasController->renderFile()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(782): PeliculasController->renderPartial()
+#11 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php(128): PeliculasController->render()
+#12 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PeliculasController->actionIndex()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\_view.php (13)
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\index.php (43)
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (128)
+2014/12/03 15:45:56 [error] [php] Undefined variable: data (C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\view.php:45)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): PeliculasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): PeliculasController->renderPartial()
+#2 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php(56): PeliculasController->render()
+#3 unknown(0): PeliculasController->actionView()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/10.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\view.php (45)
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (56)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/03 16:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 16:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 18:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 18:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 18:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/03 21:23:01 [error] [exception.CException] exception 'CException' with message 'CarteleraController cannot find the requested view "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\CarteleraController.php(8): CController->render('index', Array)
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CarteleraController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('cartelera')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/MovieTheaterYii/cartelera
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 21:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/compra.php".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/compra.php
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/10.html
+---
+2014/12/03 21:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.php
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 21:55:00 [error] [php] Undefined variable: data (C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\view.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): PeliculasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): PeliculasController->renderPartial()
+#2 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php(56): PeliculasController->render()
+#3 unknown(0): PeliculasController->actionView()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/1.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\view.php (65)
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (56)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/03 22:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/peliculas/compra".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/peliculas/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:23:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:23:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.php
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:23:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "source".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('source')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('source')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/sourc...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/source/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:26:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:26:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:28:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "source".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('source')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('source')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/sourc...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/source/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "source".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('source')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('source')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/sourc...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/source/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra.php".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra.php')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra.php')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.php
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:36:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/1.html
+---
+2014/12/03 22:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "compra".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('compra')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('compra')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/compr...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/compra.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/3.html
+---
+2014/12/03 22:38:48 [error] [php] Undefined variable: data (C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\view.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): PeliculasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): PeliculasController->renderPartial()
+#2 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php(56): PeliculasController->render()
+#3 unknown(0): PeliculasController->actionView()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/3.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\view.php (65)
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (56)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/03 22:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "3".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('3')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('3')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/3/com...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/3/compra
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/3.html
+---
+2014/12/03 22:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "source".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('source')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/source
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/3
+---
+2014/12/03 23:12:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/site".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/MovieTheaterYii/themes/classic/site/
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/4.html
+---
+2014/12/03 23:15:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/site')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/site
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/9.html
+---
+2014/12/03 23:28:08 [error] [php] Undefined variable: model (C:\xampp\htdocs\MovieTheaterYii\themes\classic\views\site\pages\compra.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CViewAction.php(140): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/site/page.html?view=compra&idPelicula=3
+in C:\xampp\htdocs\MovieTheaterYii\themes\classic\views\site\pages\compra.php (28)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/03 23:46:44 [error] [php] Undefined variable: data (C:\xampp\htdocs\MovieTheaterYii\protected\views\compraBoletos\view.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): CompraBoletosController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): CompraBoletosController->renderPartial()
+#2 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\CompraBoletosController.php(56): CompraBoletosController->render()
+#3 unknown(0): CompraBoletosController->actionView()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CompraBoletosController->runAction()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CompraBoletosController->filterAccessControl()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CompraBoletosController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CompraBoletosController->run()
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/compraBoletos/2
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\compraBoletos\view.php (46)
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\CompraBoletosController.php (56)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/04 05:05:16 [error] [php] Undefined variable: dataProvider (C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\index.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): PeliculasController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): PeliculasController->renderPartial()
+#2 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php(130): PeliculasController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PeliculasController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\index.php (41)
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (130)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/04 05:13:47 [error] [php] Undefined variable: pages (C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php:126)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (126)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/04 05:14:42 [error] [php] Undefined index: NombrePelicula (C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php:127)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (127)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/04 05:15:28 [error] [php] Undefined index: Peliculas (C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php:127)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (127)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/04 05:16:01 [error] [php] Undefined variable: pages (C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php:126)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PeliculasController->runAction()
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PeliculasController->filterAccessControl()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): PeliculasController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PeliculasController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+in C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php (126)
+in C:\xampp\htdocs\MovieTheaterYii\index.php (13)
+2014/12/04 05:25:09 [error] [exception.CException] exception 'CException' with message 'Property "CListView.filter" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('filter', Object(Peliculas))
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PeliculasController), 'zii.widgets.CLi...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 C:\xampp\htdocs\MovieTheaterYii\protected\views\peliculas\index.php(46): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\PeliculasController.php(133): CController->render('index', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PeliculasController->actionIndex()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('peliculas/index')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/MovieTheaterYii/peliculas/index.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/peliculas/3.html
+---
+2014/12/04 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/autocinema.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/04 05:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/servic...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/MovieTheaterYii/site/img/servicios/tarjetas.jpg
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/page.html?view=servicios
+---
+2014/12/04 05:58:28 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.charset" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('charset', 'UTF-8')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'CActiveForm', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\xampp\htdocs\MovieTheaterYii\protected\views\site\login.php(38): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#8 C:\xampp\htdocs\MovieTheaterYii\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\MovieTheaterYii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/MovieTheaterYii/site/login.html
+HTTP_REFERER=http://127.0.0.1/MovieTheaterYii/site/index.html
+---
