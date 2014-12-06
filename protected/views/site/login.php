@@ -23,10 +23,7 @@
 </section>
 
 <section id="inicio_sesion">
-	<h1>Login</h1>
-
-	<p>Please fill out the following form with your login credentials:</p>
-
+	<h1>Inicia sesión</h1>
 	<div class="form">
 		<?php $form=$this->beginWidget('CActiveForm', array(
 			'id'=>'login-form',

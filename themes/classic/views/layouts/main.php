@@ -44,5 +44,6 @@
 	</footer>
 	<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.js"></script>
 	<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/bootstrap.min.js"></script>
+	<script src="<?php echo Yii::app()->theme->baseUrl;?>/js/jscod.js"></script>
 </body>
 </html>

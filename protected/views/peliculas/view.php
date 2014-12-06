@@ -42,22 +42,37 @@ $this->menu=array(
 	<h2><?php echo $model->NombrePelicula; ?></h2>
 	<div class="row">
 		<div class="col-md-4">
-			<img src="<?php echo Yii::app()->theme->baseUrl;?>/<?php echo $model->PosterPelicula; ?>" alt="">
+			<img src="<?php echo Yii::app()->theme->baseUrl;?>/<?php echo $model->PosterPelicula; ?>" alt=""><br>
+			<div class="miniaturas">
+				<span class="clasificacionPelicula">Clasif: <?php echo $model->ClasificacionPelicula; ?></span>
+				<span class="DuracionPelicula"><?php echo $model->DuracionPelicula; ?> min.</span>
+				<span class="GeneroPelicula"><?php echo $model->GeneroPelicula; ?></span>
+			</div>
+			<div class="horarios">
+				<strong>Selecciona un horario para realizar la compra o reserva de tus boletos: </strong><br>
+				<ul>
+					<?php 
+						$IDPel = $model->IDPelicula;
+						$consulta = sprintf("Select Horario from funciones where IDPelicula=%d", $IDPel);
+						$resconsulta = Yii::app()->db->createCommand($consulta)->queryAll();
+						print_r($resconsulta);
+						/*if($registro = mysql_fetch_array($resconsulta))
+						{
+							echo "<li><a href='<?php echo Yii::app()->theme->baseUrl;?>../../../compraBoletos/'>Prueba</a></li>";
+						}*/
+					 ?>
+				</ul>
+			</div>
 		</div>
 		<div class="col-md-8">
 			<div class="embed-responsive embed-responsive-16by9">
-				<?php echo $model->TrailerPelicula; ?>
+				<p><?php echo $model->TrailerPelicula; ?></p><br>
 			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<p class="sinopsis_pelicula">"<?php echo $model->SinopsisPelicula ?>"</p>
-			<strong>Clasificación: </strong><?php echo $model->ClasificacionPelicula; ?><br>
-			<strong>Duración: </strong><?php echo $model->DuracionPelicula; ?><br>
-			<strong>Género: </strong><?php echo $model->GeneroPelicula; ?>
-			<strong>Director: </strong><?php echo $model->DirectorPelicula; ?><br>
-			<strong>Elenco: </strong><?php echo $model->ActoresPelicula; ?><br>
+			<div>
+				<p class="sinopsis_pelicula">"<?php echo $model->SinopsisPelicula ?>"</p>
+				<strong>Director: </strong><?php echo $model->DirectorPelicula; ?><br>
+				<strong>Elenco: </strong><?php echo $model->ActoresPelicula; ?><br>
+			</div>
 		</div>
 	</div>
 	<div class="botonera_pelicula">
