@@ -8,8 +8,8 @@
             array('label'=>'Promociones', 'url'=>array('/site/page', 'view'=>'promociones')),
             array('label'=>'Servicios', 'url'=>array('/site/page', 'view'=>'servicios')),
             array('label'=>'Contacto', 'url'=>array('/site/page', 'view'=>'contacto')),
-            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+            /*array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)*/
         ),
     )); ?>
 
@@ -27,13 +27,13 @@
             <div class="col-md-6">
                 <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/discapacitados.jpg" alt="">
                 <div class="info">
-                    
+                    Facilidades para personas discapacitadas.
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/estacionamiento.jpg" alt="">
+                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/dulceria.jpg" alt="">
                 <div class="info">
-                    
+                    La mejor variedad de botanas la encuentras en nuestra dulcería. 
                 </div>
             </div>
         </div>
@@ -41,41 +41,13 @@
             <div class="col-md-6">
                 <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/alimentos_exclusivos.jpg" alt="">
                 <div class="info">
-                    
+                    Tenemos una amplia gama de alimentos exclusivos para ofrecer en nuestras salas VIP.
                 </div>
             </div>
             <div class="col-md-6">
                 <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/fast_food.jpg" alt="">
                 <div class="info">
-                    
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/centro_comercial.jpg" alt="">
-                <div class="info">
-                    
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/dulceria.jpg" alt="">
-                <div class="info">
-                    
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="img/servicios/tarjetas.jpg" alt="">
-                <div class="info">
-                    
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img src="img/servicios/autocinema.jpg" alt="">
-                <div class="info">
-                    
+                    Contamos con un área de comida rápida para que puedas disfrutar de una buena comida antes o después de la película. 
                 </div>
             </div>
         </div>

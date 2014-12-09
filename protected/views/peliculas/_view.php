@@ -13,13 +13,10 @@
 	<img src="<?php echo Yii::app()->theme->baseUrl;?>/<?php echo CHtml::encode($data->PosterPelicula); ?>">
 	<br />
 
-	<b>Clasificación: </b>
-	<?php echo CHtml::encode($data->ClasificacionPelicula); ?>
-	<br />
-
-	<b>Duración: </b>
-	<?php echo CHtml::encode($data->DuracionPelicula); ?> min.
-	<br />
+	<div class="miniaturas" style="margin-left: 2em;">
+		<span class="clasificacionPelicula">Clasif: <?php echo $data->ClasificacionPelicula; ?></span>
+		<span class="DuracionPelicula"><?php echo $data->DuracionPelicula; ?> min.</span>
+	</div>
 
 	<?php /*
 

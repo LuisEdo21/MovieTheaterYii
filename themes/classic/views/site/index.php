@@ -8,8 +8,8 @@
             array('label'=>'Promociones', 'url'=>array('/site/page', 'view'=>'promociones')),
             array('label'=>'Servicios', 'url'=>array('/site/page', 'view'=>'servicios')),
             array('label'=>'Contacto', 'url'=>array('/site/page', 'view'=>'contacto')),
-            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+            /*array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)*/
         ),
     )); ?>
 
@@ -67,17 +67,27 @@
 	</article>
 	<article id="informacionPrincipal">
 		<div class="row">
+			<div class="col-md-12">
+				<h1>Movie Theater te da la bienvenida a nuestro sitio Web para brindarte un mejor servicio porque lo más importante eres tú.</h1>
+			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-4">
 				<h2>Estrenos</h2>
-                <span>Movie Theater te trae los estrenos antes que nadie; disfruta de exclusivas premieres a precios que no podrás creer. </span>
+                <span>Movie Theater te trae los estrenos antes que nadie; disfruta de exclusivas premieres a precios que no podrás creer. </span><br>
+                <div class="estreno" align="center">
+					<img src="<?php echo Yii::app()->theme->baseUrl;?>/img/cartelera/hobbit.jpg" style="width: 200px; height: 300px;">
+                </div>
 			</div>
 			<div class="col-md-4">
 				<h2>Promociones</h2>
-                <span>Siempre contamos con promociones para ti. ¡Todos los días de la semana una promoción diferente!</span>
+                <span>Siempre contamos con promociones para ti. ¡Todos los días de la semana una promoción especial para ti!</span>
+                <img class="featurette-image img-responsive" src="<?php echo Yii::app()->theme->baseUrl;?>/img/promociones/1.jpg" alt="">
 			</div>
 			<div class="col-md-4">
 				<h2>Movie Theater Club</h2>
-                <span>Solicita tu tarjeta Movie Theater Club sin costo alguno y comienza a disfrutar de sus beneficios.</span>
+                <span>Solicita tu tarjeta Movie Theater Club sin costo alguno y comienza a disfrutar de sus beneficios. <strong>Espera los detalles próximamente.</strong></span>
+				<img class="featurette-image img-responsive" src="<?php echo Yii::app()->theme->baseUrl;?>/img/servicios/alimentos_exclusivos.jpg" alt="">
 			</div>
 		</div>
 	</article>

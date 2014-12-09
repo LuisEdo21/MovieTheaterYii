@@ -8,8 +8,8 @@
             array('label'=>'Promociones', 'url'=>array('/site/page', 'view'=>'promociones')),
             array('label'=>'Servicios', 'url'=>array('/site/page', 'view'=>'servicios')),
             array('label'=>'Contacto', 'url'=>array('/site/page', 'view'=>'contacto')),
-            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+            /*array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)*/
         ),
     )); ?>
 
@@ -22,36 +22,39 @@
 <section id="contacto">
     <h1>Contacto - Movie Theater: El cine como nunca lo imaginaste</h1>
     <article id="informacionContacto">
-        <h2>Mapa de ubicación</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d2144.4811535558224!2d-107.37974906480034!3d24.81244958453916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e0!4m0!4m3!3m2!1d24.812480599999997!2d-107.3791768!5e1!3m2!1ses-419!2smx!4v1416973330896" width="1100" height="600" frameborder="0" style="border:0"></iframe>
+        <h2>Las Quintas</h2>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1499.9878691389538!2d-107.37944939165003!3d24.812593560993996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d24.8124592!2d-107.37920199999999!5e1!3m2!1ses-419!2smx!4v1417893969396" width="600" height="450" frameborder="0" style="border:0"></iframe>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <strong>Visítanos en:</strong> <br>
                 Av. Rafael Buelna #1845. Colonia Las Quintas. Culiacán, Sinaloa. <br>
-                (Antes Multicinemas)
-            </div>
-            <div class="col-md-6">
-                Servicios: 
-            </div>  
-        </div>
-        <h2>Mapa de ubicación</h2>
-        <div class="row">
-            <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d6691.431940894035!2d-107.45193022592224!3d24.749730968108782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m3!3m2!1d24.7506025!2d-107.4513159!4m0!5e1!3m2!1ses-419!2smx!4v1416973808019" width="1100" height="600" frameborder="0" style="border:0"></iframe>
+                (Antes Multicinemas) <br>
+                <strong>Servicios: </strong>
+                <ul>
+                    <li>Facilidades para personas discapacitadas.</li>
+                    <li>Servicio de dulcería.</li>
+                    <li>Alimentos exclusivos en salas VIP.</li>
+                </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
+        <h2>Las Torres</h2>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d11955.28125233144!2d-107.4509829467533!3d24.75637211990935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d24.754315599999998!2d-107.45007299999999!5e1!3m2!1ses-419!2smx!4v1417894785739" width="600" height="450" frameborder="0" style="border:0"></iframe>
+            </div>
+            <div class="col-md-5">
                 <strong>Visítanos en:</strong> <br>
-                Blvd. Las Torres esquina con Blvd. Jesús Kumate. Culiacán, Sinaloa.  
+                Blvd. Las Torres esquina con Blvd. Jesús Kumate. Culiacán, Sinaloa. <br>
+                <strong>Servicios: </strong>
+                <ul>
+                    <li>Facilidades para personas discapacitadas.</li>
+                    <li>Servicio de dulcería.</li>
+                    <li>Alimentos exclusivos en salas VIP.</li>
+                    <li>Área de comida rápida</li>
+                </ul>
             </div>
-            <div class="col-md-6">
-                Servicios: 
-            </div>  
         </div>
     </article>
 </section>

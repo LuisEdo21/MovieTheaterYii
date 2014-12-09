@@ -26,8 +26,8 @@ $this->menu=array(
             array('label'=>'Promociones', 'url'=>array('/site/page', 'view'=>'promociones')),
             array('label'=>'Servicios', 'url'=>array('/site/page', 'view'=>'servicios')),
             array('label'=>'Contacto', 'url'=>array('/site/page', 'view'=>'contacto')),
-            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+            /*array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)*/
         ),
     )); ?>
 
@@ -44,150 +44,58 @@ $this->menu=array(
         <div class="row">
             <div class="col-md-4">
                 <img src="<?php echo Yii::app()->theme->baseUrl;?>/<?php echo CHtml::encode($model->PosterPelicula); ?>">
+                <span class="TotalAPagar"><br>
+                    <strong>Precio unitario: $<?php echo $_GET['precio']; ?>.00</strong>
+                </span>
             </div>
             <div class="col-md-8">
-                <form class="form-horizontal" role="form">
+                <form class="form-horizontal">
+                    <div class="form-group" style="display: none;">
+                        <div class="col-sm-8">
+                            <?php 
+                                $IDFun = $_GET['idfuncion'];
+                                echo "<input type='text' class='form-control' id='FuncionID' value='".$IDFun."' disabled>"
+                             ?>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label for="CompraOReserva" class="col-sm-4">¿Qué quieres hacer?</label>
                         <div class="col-sm-8">
                             <label class="radio-inline">
-                                <input type="radio" name="CompraOReserva" id="inlineRadio1" value="option1"> Compra
+                                <input type="radio" name="CompraOReserva" id="inlineRadio1" value="Compra" checked="checked"> Compra
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="CompraOReserva" id="inlineRadio2" value="option2"> Reserva
+                                <input type="radio" name="CompraOReserva" id="inlineRadio2" value="Reserva"> Reserva
                             </label>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="NumBoletos" class="col-sm-4">Número de boletos: </label>
                         <div class="col-sm-8">
-                            <input type="number" class="form-control" name="NumBoletos" min="1" max="100">
+                            <input type="number" class="form-control" name="NumBoletos" id="NumBoletos" onkeypress="return SoloNumerosInput(event);" min="1" max="100" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="AsientosCompra" class="col-sm-4">Selecciona asientos: </label>
                         <div class="col-sm-8">
+                            <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/asientos/pantalla.png" id="pantalla_asientos">
                             <table id="MatrizDeAsientos">
-                                <tr>
-                                    <td><a href="#" id="A01" onclick="ValidarAsientos(this.id)">1</a></td>
-                                    <td><a href="#" id="A02" onclick="ValidarAsientos(this.id)">2</a></td>
-                                    <td><a href="#" id="A03" onclick="ValidarAsientos(this.id)">3</a></td>
-                                    <td><a href="#" id="A04" onclick="ValidarAsientos(this.id)">4</a></td>
-                                    <td><a href="#" id="A05" onclick="ValidarAsientos(this.id)">5</a></td>
-                                    <td><a href="#" id="A06" onclick="ValidarAsientos(this.id)">6</a></td>
-                                    <td><a href="#" id="A07" onclick="ValidarAsientos(this.id)">7</a></td>
-                                    <td><a href="#" id="A08" onclick="ValidarAsientos(this.id)">8</a></td>
-                                    <td><a href="#" id="A09" onclick="ValidarAsientos(this.id)">9</a></td>
-                                    <td><a href="#" id="A10" onclick="ValidarAsientos(this.id)">10</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A11" onclick="ValidarAsientos(this.id)">11</a></td>
-                                    <td><a href="#" id="A12" onclick="ValidarAsientos(this.id)">12</a></td>
-                                    <td><a href="#" id="A13" onclick="ValidarAsientos(this.id)">13</a></td>
-                                    <td><a href="#" id="A14" onclick="ValidarAsientos(this.id)">14</a></td>
-                                    <td><a href="#" id="A15" onclick="ValidarAsientos(this.id)">15</a></td>
-                                    <td><a href="#" id="A16" onclick="ValidarAsientos(this.id)">16</a></td>
-                                    <td><a href="#" id="A17" onclick="ValidarAsientos(this.id)">17</a></td>
-                                    <td><a href="#" id="A18" onclick="ValidarAsientos(this.id)">18</a></td>
-                                    <td><a href="#" id="A19" onclick="ValidarAsientos(this.id)">19</a></td>
-                                    <td><a href="#" id="A20" onclick="ValidarAsientos(this.id)">20</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A21" onclick="ValidarAsientos(this.id)">21</a></td>
-                                    <td><a href="#" id="A22" onclick="ValidarAsientos(this.id)">22</a></td>
-                                    <td><a href="#" id="A23" onclick="ValidarAsientos(this.id)">23</a></td>
-                                    <td><a href="#" id="A24" onclick="ValidarAsientos(this.id)">24</a></td>
-                                    <td><a href="#" id="A25" onclick="ValidarAsientos(this.id)">25</a></td>
-                                    <td><a href="#" id="A26" onclick="ValidarAsientos(this.id)">26</a></td>
-                                    <td><a href="#" id="A27" onclick="ValidarAsientos(this.id)">27</a></td>
-                                    <td><a href="#" id="A28" onclick="ValidarAsientos(this.id)">28</a></td>
-                                    <td><a href="#" id="A29" onclick="ValidarAsientos(this.id)">29</a></td>
-                                    <td><a href="#" id="A30" onclick="ValidarAsientos(this.id)">30</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A31" onclick="ValidarAsientos(this.id)">31</a></td>
-                                    <td><a href="#" id="A32" onclick="ValidarAsientos(this.id)">32</a></td>
-                                    <td><a href="#" id="A33" onclick="ValidarAsientos(this.id)">33</a></td>
-                                    <td><a href="#" id="A34" onclick="ValidarAsientos(this.id)">34</a></td>
-                                    <td><a href="#" id="A35" onclick="ValidarAsientos(this.id)">35</a></td>
-                                    <td><a href="#" id="A36" onclick="ValidarAsientos(this.id)">36</a></td>
-                                    <td><a href="#" id="A37" onclick="ValidarAsientos(this.id)">37</a></td>
-                                    <td><a href="#" id="A38" onclick="ValidarAsientos(this.id)">38</a></td>
-                                    <td><a href="#" id="A39" onclick="ValidarAsientos(this.id)">39</a></td>
-                                    <td><a href="#" id="A40" onclick="ValidarAsientos(this.id)">40</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A41" onclick="ValidarAsientos(this.id)">41</a></td>
-                                    <td><a href="#" id="A42" onclick="ValidarAsientos(this.id)">42</a></td>
-                                    <td><a href="#" id="A43" onclick="ValidarAsientos(this.id)">43</a></td>
-                                    <td><a href="#" id="A44" onclick="ValidarAsientos(this.id)">44</a></td>
-                                    <td><a href="#" id="A45" onclick="ValidarAsientos(this.id)">45</a></td>
-                                    <td><a href="#" id="A46" onclick="ValidarAsientos(this.id)">46</a></td>
-                                    <td><a href="#" id="A47" onclick="ValidarAsientos(this.id)">47</a></td>
-                                    <td><a href="#" id="A48" onclick="ValidarAsientos(this.id)">48</a></td>
-                                    <td><a href="#" id="A49" onclick="ValidarAsientos(this.id)">49</a></td>
-                                    <td><a href="#" id="A50" onclick="ValidarAsientos(this.id)">50</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A51" onclick="ValidarAsientos(this.id)">51</a></td>
-                                    <td><a href="#" id="A52" onclick="ValidarAsientos(this.id)">52</a></td>
-                                    <td><a href="#" id="A53" onclick="ValidarAsientos(this.id)">53</a></td>
-                                    <td><a href="#" id="A54" onclick="ValidarAsientos(this.id)">54</a></td>
-                                    <td><a href="#" id="A55" onclick="ValidarAsientos(this.id)">55</a></td>
-                                    <td><a href="#" id="A56" onclick="ValidarAsientos(this.id)">56</a></td>
-                                    <td><a href="#" id="A57" onclick="ValidarAsientos(this.id)">57</a></td>
-                                    <td><a href="#" id="A58" onclick="ValidarAsientos(this.id)">58</a></td>
-                                    <td><a href="#" id="A59" onclick="ValidarAsientos(this.id)">59</a></td>
-                                    <td><a href="#" id="A60" onclick="ValidarAsientos(this.id)">60</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A61" onclick="ValidarAsientos(this.id)">61</a></td>
-                                    <td><a href="#" id="A62" onclick="ValidarAsientos(this.id)">62</a></td>
-                                    <td><a href="#" id="A63" onclick="ValidarAsientos(this.id)">63</a></td>
-                                    <td><a href="#" id="A64" onclick="ValidarAsientos(this.id)">64</a></td>
-                                    <td><a href="#" id="A65" onclick="ValidarAsientos(this.id)">65</a></td>
-                                    <td><a href="#" id="A66" onclick="ValidarAsientos(this.id)">66</a></td>
-                                    <td><a href="#" id="A67" onclick="ValidarAsientos(this.id)">67</a></td>
-                                    <td><a href="#" id="A68" onclick="ValidarAsientos(this.id)">68</a></td>
-                                    <td><a href="#" id="A69" onclick="ValidarAsientos(this.id)">69</a></td>
-                                    <td><a href="#" id="A70" onclick="ValidarAsientos(this.id)">70</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A71" onclick="ValidarAsientos(this.id)">71</a></td>
-                                    <td><a href="#" id="A72" onclick="ValidarAsientos(this.id)">72</a></td>
-                                    <td><a href="#" id="A73" onclick="ValidarAsientos(this.id)">73</a></td>
-                                    <td><a href="#" id="A74" onclick="ValidarAsientos(this.id)">74</a></td>
-                                    <td><a href="#" id="A75" onclick="ValidarAsientos(this.id)">75</a></td>
-                                    <td><a href="#" id="A76" onclick="ValidarAsientos(this.id)">76</a></td>
-                                    <td><a href="#" id="A77" onclick="ValidarAsientos(this.id)">77</a></td>
-                                    <td><a href="#" id="A78" onclick="ValidarAsientos(this.id)">78</a></td>
-                                    <td><a href="#" id="A79" onclick="ValidarAsientos(this.id)">79</a></td>
-                                    <td><a href="#" id="A80" onclick="ValidarAsientos(this.id)">80</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A81" onclick="ValidarAsientos(this.id)">81</a></td>
-                                    <td><a href="#" id="A82" onclick="ValidarAsientos(this.id)">82</a></td>
-                                    <td><a href="#" id="A83" onclick="ValidarAsientos(this.id)">83</a></td>
-                                    <td><a href="#" id="A84" onclick="ValidarAsientos(this.id)">84</a></td>
-                                    <td><a href="#" id="A85" onclick="ValidarAsientos(this.id)">85</a></td>
-                                    <td><a href="#" id="A86" onclick="ValidarAsientos(this.id)">86</a></td>
-                                    <td><a href="#" id="A87" onclick="ValidarAsientos(this.id)">87</a></td>
-                                    <td><a href="#" id="A88" onclick="ValidarAsientos(this.id)">88</a></td>
-                                    <td><a href="#" id="A89" onclick="ValidarAsientos(this.id)">89</a></td>
-                                    <td><a href="#" id="A90" onclick="ValidarAsientos(this.id)">90</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" id="A91" onclick="ValidarAsientos(this.id)">91</a></td>
-                                    <td><a href="#" id="A92" onclick="ValidarAsientos(this.id)">92</a></td>
-                                    <td><a href="#" id="A93" onclick="ValidarAsientos(this.id)">93</a></td>
-                                    <td><a href="#" id="A94" onclick="ValidarAsientos(this.id)">94</a></td>
-                                    <td><a href="#" id="A95" onclick="ValidarAsientos(this.id)">95</a></td>
-                                    <td><a href="#" id="A96" onclick="ValidarAsientos(this.id)">96</a></td>
-                                    <td><a href="#" id="A97" onclick="ValidarAsientos(this.id)">97</a></td>
-                                    <td><a href="#" id="A98" onclick="ValidarAsientos(this.id)">98</a></td>
-                                    <td><a href="#" id="A99" onclick="ValidarAsientos(this.id)">99</a></td>
-                                    <td><a href="#" id="A100" onclick="ValidarAsientos(this.id)">100</a></td>
-                                </tr>
+                                <?php
+                                    $IDFun = $_GET['idfuncion'];
+                                    $NumFilas = 10;
+                                    $NumColumnas = 10;
+                                    $ContAsientos = 0;
+                                    for($i=0; $i<$NumFilas; $i++)
+                                    {
+                                        echo '<tr>';
+                                        for($j=0; $j<$NumColumnas; $j++)
+                                        {
+                                            $ContAsientos++;
+                                            echo "<td><a href='#' id='".$ContAsientos."' onclick='ValidarAsientos(this.id,".$IDFun.")'>".$ContAsientos."</a></td>";
+                                        }
+                                        echo '</tr>';
+                                    }
+                                 ?>
                             </table>
                         </div>
                     </div>
@@ -202,49 +110,48 @@ $this->menu=array(
                         <div class="form-group">
                             <label for="TipoTarjeta" class="col-sm-4">Tipo de tarjeta: </label>
                             <div class="col-sm-8">
-                                <select name="TipoTarjeta" class="form-control">
+                                <select name="TipoTarjeta" class="form-control" id="TipoTarjeta">
                                     <option value="visa">VISA</option>
-                                    <option value="martercard">Master Card</option>
+                                    <option value="mastercard">MasterCard</option>
                                 </select>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="NumTarjeta" class="col-sm-4">Número de tarjeta: </label>
                             <div class="col-sm-8">
-                                <input type="num" size="16" class="form-control" id="NumTarjeta" placeholder="XXXX-XXXX-XXXX-XXXX">
+                                <input type="num" size="16" class="form-control" id="NumTarjeta" onkeypress="return SoloNumerosInput(event);" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="CodigoTarjeta" class="col-sm-4">Dígitos de seguridad: </label>
                             <div class="col-sm-8">
-                                <input type="text" size="3" class="form-control" id="CodigoTarjeta" placeholder="Código de 3 dígitos">
+                                <input type="text" size="3" class="form-control" id="CodigoTarjeta" onkeypress="return SoloNumerosInput(event);" placeholder="Código de 3 dígitos" maxlength="3">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="VencimientoTarjeta" class="col-sm-4">Fecha de vencimiento</label>
                             <div class="col-sm-8">
-                                <select name="AnoVencimiento" class="form-control">
-                                    <option value="14">2014</option>
-                                    <option value="15">2015</option>
-                                    <option value="16">2016</option>
-                                    <option value="17">2017</option>
-                                    <option value="18">2018</option>
-                                    <option value="19">2019</option>
-                                    <option value="20">2020</option>
+                                <select name="AnoVencimiento" class="form-control" id="AnoVencimiento">
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
                                 </select>
-                                <select name="MesVencimiento" class="form-control">
-                                    <option value="1">Enero</option>
-                                    <option value="2">Febrero</option>
-                                    <option value="3">Marzo</option>
-                                    <option value="4">Abril</option>
-                                    <option value="5">Mayo</option>
-                                    <option value="6">Junio</option>
-                                    <option value="7">Julio</option>
-                                    <option value="8">Agosto</option>
-                                    <option value="9">Septiembre</option>
-                                    <option value="10">Octubre</option>
-                                    <option value="11">Noviembre</option>
-                                    <option value="12">Diciembre</option>
+                                <select name="MesVencimiento" class="form-control" id="MesVencimiento">
+                                    <option value="Enero">Enero</option>
+                                    <option value="Febrero">Febrero</option>
+                                    <option value="Marzo">Marzo</option>
+                                    <option value="Abril">Abril</option>
+                                    <option value="Mayo">Mayo</option>
+                                    <option value="Junio">Junio</option>
+                                    <option value="Julio">Julio</option>
+                                    <option value="Agosto">Agosto</option>
+                                    <option value="Septiembre">Septiembre</option>
+                                    <option value="Octubre">Octubre</option>
+                                    <option value="Noviembre">Noviembre</option>
+                                    <option value="Diciembre">Diciembre</option>
                                 </select>
                             </div>
                         </div>
@@ -255,24 +162,24 @@ $this->menu=array(
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success btn-lg btn-block">Confirmar</button>
+                           <a class='btn btn-success btn-lg btn-block' id='PagoConTDC'>Confirmar</a>
                         </div>
                     </div>
                     <div id="PagoPuntos">
                         <div class="form-group">
                             <label for="NumTarjetaSocio" class="col-sm-4">Número de tarjeta:</label>
                             <div class="col-sm-8">
-                                <input type="num" size="12" class="form-control" id="NumTarjetaSocio" placeholder="XXXX-XXXX-XXXX">
+                                <input type="num" size="12" class="form-control" id="NumTarjetaSocio" onkeypress="return SoloNumerosInput(event);" placeholder="XXXX-XXXX-XXXX" maxlength="12">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="CorreoCliente" class="col-sm-4">Correo electrónico: </label>
                             <div class="col-sm-8">
-                                <input type="email" class="form-control" id="CorreoCliente" placeholder="Escribe tu correo electrónico">
+                                <input type="email" class="form-control" id="CorreoClienteMTC" placeholder="Escribe tu correo electrónico">
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success btn-lg btn-block">Confirmar</button>
+                            <a class="btn btn-success btn-lg btn-block" id="PagoConMTC">Confirmar</a>
                         </div>
                     </div>
                 </form>
@@ -282,30 +189,74 @@ $this->menu=array(
 </section>
 
 <script>
-    var ValidarAsientos = function(NumAsiento)
+    var AsientosSeleccionados = [];
+
+    var SoloNumerosInput = function(e)
+    {
+        var TeclaNumPresionada = window.event ? window.event.keyCode : e.which;
+        if ((TeclaNumPresionada == 8) || (TeclaNumPresionada == 46))
+        return true;
+         
+        return /\d/.test(String.fromCharCode(TeclaNumPresionada));
+    }
+
+    var ValidarAsientos = function(NumAsiento, FuncionID)
     {
         var cadena = "Seleccionó un asiento: " + NumAsiento;
-        /*var parametros = "opc=validaasiento"+"&numasiento="+NumAsiento;
-        $.ajax({
-            cache: false,
-            url: "source/asientos.php",
-            type: "POST",
-            dataType: "json",
-            data: parametros,
-            success: function(response){
-                if(response.respuesta == true)
-                {
-
-                }
-            }
-        });*/
+        var Cont = 0, Aux = 0;
         var valorCSS = 
         {
             background: "green",
             color: "white"
         };
-        $("#"+NumAsiento).css(valorCSS);
+        var valorCSSSeleccionado = 
+        {
+            background: "none",
+            color: "#337ab7"
+        };
+        while(Cont<=AsientosSeleccionados.length)
+        {
+            if(AsientosSeleccionados[Cont]==NumAsiento)
+            {
+                $("#"+NumAsiento).css(valorCSSSeleccionado);
+                AsientosSeleccionados.splice(Cont,1);
+                var param = "opc=validaasiento"+"&numasiento="+NumAsiento+"&idfuncion="+FuncionID+"&id="+Math.random();
+                EnviaPorAJAX(param);
+                Cont++;
+                break;
+            }
+            if(AsientosSeleccionados[Cont]!=NumAsiento)
+            {
+                $("#"+NumAsiento).css(valorCSS);
+                AsientosSeleccionados.push(NumAsiento);
+                var param = "opc=validaasiento"+"&numasiento="+NumAsiento+"&idfuncion="+FuncionID+"&id="+Math.random();
+                EnviaPorAJAX(param);
+                break;
+            }
+            Cont++;
+        }
         console.log(NumAsiento);
+        console.log(AsientosSeleccionados);
+    }
+
+    var EnviaPorAJAX = function(parametros)
+    {
+        console.log(parametros);
+        $.ajax({
+            cache: false,
+            url: '../../themes/classic/source/asientos.php',
+            type: 'POST',
+            dataType: 'json',
+            data: parametros,
+            success:function(response){
+                if(response.respuesta==true)
+                    console.log("Quitó el asiento "+NumAsiento);
+                else
+                    console.log("Hay un error de servidor");
+            },
+            error:function(xhr,ajaxOptions,x){
+            }
+        });
     }
 </script>
 

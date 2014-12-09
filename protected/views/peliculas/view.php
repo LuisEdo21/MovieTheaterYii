@@ -26,8 +26,8 @@ $this->menu=array(
             array('label'=>'Promociones', 'url'=>array('/site/page', 'view'=>'promociones')),
             array('label'=>'Servicios', 'url'=>array('/site/page', 'view'=>'servicios')),
             array('label'=>'Contacto', 'url'=>array('/site/page', 'view'=>'contacto')),
-            array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+            /*array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+            array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)*/
         ),
     )); ?>
 
@@ -53,13 +53,31 @@ $this->menu=array(
 				<ul>
 					<?php 
 						$IDPel = $model->IDPelicula;
-						$consulta = sprintf("Select Horario from funciones where IDPelicula=%d", $IDPel);
+						$consulta = sprintf("Select Horario, IDFuncion, Precio from funciones where IDPelicula=%d and IDFuncion<=41", $IDPel);
 						$resconsulta = Yii::app()->db->createCommand($consulta)->queryAll();
-						print_r($resconsulta);
-						/*if($registro = mysql_fetch_array($resconsulta))
+						/*Para que aparezcan por separado las funciones de Las Quintas y Las Torres
+						  puedo hacer una segunda consulta y modificar la existente para imprimir
+						  dos listas diferentes (Agregar un IDFuncion<=41 para que esos sean de Las Quintas)*/
+						print_r("<br><strong>LAS QUINTAS</strong>");
+						for($i=0; $i<count($resconsulta); $i++)
 						{
-							echo "<li><a href='<?php echo Yii::app()->theme->baseUrl;?>../../../compraBoletos/'>Prueba</a></li>";
-						}*/
+							$ArregloInterno = $resconsulta[$i];
+							$ConsultaTipoSala = sprintf("Select s.TipoSala from salas s inner join funciones f on f.IDSala = s.IDSala where f.IDFuncion=%d",$ArregloInterno['IDFuncion']);
+							$resConsultaTipoSala = Yii::app()->db->createCommand($ConsultaTipoSala)->queryAll();
+							$ArregloInternoSala = $resConsultaTipoSala[0];
+							print_r("<li><a href='".Yii::app()->theme->baseUrl."../../../compraBoletos/".$model->IDPelicula."/?idfuncion=".$ArregloInterno['IDFuncion']."&precio=".$ArregloInterno['Precio']."'>".$ArregloInterno['Horario']." (".$ArregloInternoSala['TipoSala'].")</a></li>");
+						}
+						$consulta = sprintf("Select Horario, IDFuncion, Precio from funciones where IDPelicula=%d and IDFuncion>41", $IDPel);
+						$resconsulta = Yii::app()->db->createCommand($consulta)->queryAll();
+						print_r("<br><strong>LAS TORRES</strong>");
+						for($i=0; $i<count($resconsulta); $i++)
+						{
+							$ArregloInterno = $resconsulta[$i];
+							$ConsultaTipoSala = sprintf("Select s.TipoSala from salas s inner join funciones f on f.IDSala = s.IDSala where f.IDFuncion=%d",$ArregloInterno['IDFuncion']);
+							$resConsultaTipoSala = Yii::app()->db->createCommand($ConsultaTipoSala)->queryAll();
+							$ArregloInternoSala = $resConsultaTipoSala[0];
+							print_r("<li><a href='".Yii::app()->theme->baseUrl."../../../compraBoletos/".$model->IDPelicula."/?idfuncion=".$ArregloInterno['IDFuncion']."&precio=".$ArregloInterno['Precio']."'>".$ArregloInterno['Horario']." (".$ArregloInternoSala['TipoSala'].")</a></li>");
+						}
 					 ?>
 				</ul>
 			</div>
@@ -79,8 +97,8 @@ $this->menu=array(
 		<ul>
 			<li><a href="<?php echo Yii::app()->theme->baseUrl;?>../../../peliculas" class="btn btn-info"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Regresar a cartelera</a></li>
 			<li>
-				<a href="<?php echo Yii::app()->theme->baseUrl;?>../../../compraBoletos/<?php echo $model->IDPelicula; ?>" class="btn btn-primary">Comprar o reservar boletos <span class="glyphicon glyphicon-film" aria-hidden="true"></span></a>
 				<?php /* 
+					<a href="<?php echo Yii::app()->theme->baseUrl;?>../../../compraBoletos/<?php echo $model->IDPelicula; ?>" class="btn btn-primary">Comprar o reservar boletos <span class="glyphicon glyphicon-film" aria-hidden="true"></span></a>
 					<a href="../site/page.html?view=compra&idPelicula=<?php echo $model->IDPelicula; ?>" class="btn btn-primary">Comprar o reservar boletos <span class="glyphicon glyphicon-film" aria-hidden="true"></span></a>
 				*/?>
 			</li>
